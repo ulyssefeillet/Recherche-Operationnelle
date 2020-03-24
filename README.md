@@ -1,5 +1,5 @@
 # Recherche-Operationnelle
-Résolution du problème du sac à dos
+## Résolution du problème du sac à dos
 
 
 Le projet porte sur une variante du problème du sac à dos : le sac-à-dos bi-dimensionnel. 

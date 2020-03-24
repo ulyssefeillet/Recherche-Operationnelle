@@ -8,6 +8,8 @@ Dans le cas bi-dimensionnel, il doit tenir compte du poids de chaqueobjet et du 
 Il y a donc un double arbitrage à réaliser entre ce que rapporte un objet sélectionné, le poids qu’il va peser d’une part, et le volume qu’il va occuper d’autre part.
 Comme dans le cas du sac-à-dos, le problème est de sélectionner les objets de manière à maximiser la valeur totale, tout en respectant la contrainte de poids et de volume.
 
+Modèle mathématiqueUne écriture générale de ce problème est :maxz=N∑i=1pixis.c.N∑i=1wixi≤WN∑i=1vixi≤Vxi∈{0,1}∀i∈{1..N}Avec :xi={1si l’objetiest sélectionné0sinonWle poids maximum transportableVle volume maximum emportable.
+
 ### Solution
 L'implementation repose sur l'utilisation de Pulp. Voir le projet ici: https://github.com/coin-or/pulp
 
